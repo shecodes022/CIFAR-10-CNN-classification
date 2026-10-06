@@ -1,6 +1,6 @@
-# Implementing a CNN using the CIFAR-10 Dataset 🧠
+# Implementing a CNN using the CIFAR-10 Dataset📊
 
-*Deep Learning and Neural Networks with Applications · Queen Mary University of London*
+*Deep Learning and Neural Networks with Applications*
 
 ## Motivation ⚙️
 
@@ -93,7 +93,7 @@ The dataset used was the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cif
 | ship | 91.5% |
 | truck | 90.0% |
 
-- **Experiment 3 achieved the highest test accuracy (84.09%)**, benefiting from both training techniques and extended training.
+- Experiment 3 achieved the highest test accuracy (84.09%), benefiting from both training techniques and extended training.
 - The baseline model showed clear signs of overfitting, with test accuracy fluctuating significantly.
 - Adding normalisation, augmentation, dropout, and weight decay in Experiment 2 reduced overfitting and improved test accuracy by ~16 percentage points.
 - Extending training to 50 epochs allowed the cosine annealing scheduler to fully decay, further improving convergence.
@@ -116,13 +116,3 @@ The dataset used was the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cif
 
 This project deepened my understanding of the full deep learning workflow — from designing a custom CNN architecture to systematically evaluating training techniques through three experiments. The progression from a 64.84% baseline to 84.09% accuracy demonstrated how normalisation, augmentation, dropout, weight decay, and learning rate scheduling each contribute to better generalisation. Next, I want to explore deeper architectures with residual connections and advanced augmentation strategies.
 
-## References 📚
-
-- Chauhan, R., Ghanshala, K.K. and Joshi, R.C., 2018. Convolutional neural network (CNN) for image detection and recognition. *2018 First International Conference on Secure Cyber Computing and Communication (ICSCCC)*, pp. 278-282. IEEE.
-- DeVries, T. and Taylor, G.W., 2017. Improved regularization of convolutional neural networks with cutout. *arXiv preprint arXiv:1708.04552*.
-- He, K., Zhang, X., Ren, S. and Sun, J., 2016. Deep residual learning for image recognition. *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition*, pp. 770-778.
-- Krizhevsky, A. and Hinton, G., 2009. Learning multiple layers of features from tiny images. *University of Toronto*.
-- Loshchilov, I. and Hutter, F., 2016. SGDR: Stochastic gradient descent with warm restarts. *arXiv preprint arXiv:1608.03983*.
-- Salehin, I. and Kang, D.K., 2023. A review on dropout regularization approaches for deep neural networks. *Electronics*, 12(14), p. 3106.
-- Shafiq, M. and Gu, Z., 2022. Deep residual learning for image recognition: A survey. *Applied Sciences*, 12(18), p. 8972.
-- Thanapol, P. et al., 2020. Reducing overfitting and improving generalization in training CNN under limited sample sizes. *2020-5th International Conference on Information Technology (InCIT)*, pp. 300-305. IEEE.
